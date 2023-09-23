@@ -1,0 +1,9 @@
+img{
+    height: 90px;
+    width: 120px;
+}
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

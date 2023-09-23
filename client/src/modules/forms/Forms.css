@@ -1,0 +1,22 @@
+form{
+    background-color: rgb(61, 60, 60);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    margin: 20px;
+}
+form input{
+    width: 50%;
+}
+form input[type="file"]{
+    color: rgb(47, 227, 98);
+    width: 50%;
+}
+form select{
+    width: 50%;
+}
+form div{
+    color: rgb(66, 151, 224);
+}

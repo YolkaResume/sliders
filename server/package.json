@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "axios": "^1.5.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "pkg": "^5.8.1",
+    "rimraf": "^5.0.1"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "pkg": {
+    "assets": [
+      "D:\\VSCODE\\repos\\react\\React\\sliders\\server\\sliders"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "compile": "pkg -t node18-win-x64 index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
